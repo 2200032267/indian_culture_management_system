@@ -1,0 +1,32 @@
+.state-details-container {
+  font-family: 'Verdana', sans-serif; /* Change the font family */
+  text-align: center; /* Align content to the center */
+}
+
+.state-details-table {
+  width: 60%; /* Adjust the table width as needed */
+  margin: 0 auto; /* Center the table horizontally */
+  border-collapse: collapse; /* Collapse table borders */
+}
+
+.state-details-table th,
+.state-details-table td {
+  border: 1px solid #ddd; /* Add border to table cells */
+  padding: 20px; /* Adjust padding for cells */
+}
+
+.state-details-table th {
+  background-color: #3498db; /* Header background color */
+  color: #ffffff; /* Header text color */
+}
+
+.detail-label {
+  font-weight: bold; /* Make the detail label bold */
+  color: #3498db; /* Change the detail label color */
+}
+
+.detail-value {
+  color: #333; /* Change the detail value color */
+}
+
+/* Add more styling as needed */

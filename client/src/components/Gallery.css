@@ -1,0 +1,36 @@
+.module-options {
+    margin-bottom: 40px;
+  }
+  
+  .module-option {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: #180b1a26;
+    border-radius: 10px;
+  }
+
+  .module-table th, .module-table td {
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .module-option:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .active {
+    background-color: #007bff; /* Change the color as needed */
+    color: white;
+  }
+
+  .music-images img {
+    margin-bottom: 20px; /* Adjust the margin-bottom value as needed */
+  }
+  .module-card img {
+    margin-bottom: 20px; /* Adjust the margin-bottom value as needed */
+  }
+  
+  
+  

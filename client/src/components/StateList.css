@@ -1,0 +1,38 @@
+.state-list-container {
+  text-align: center;
+}
+
+.state-list-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.state-list-card {
+  width: 400px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease; /* Add transition for smooth effect */
+}
+
+.state-list-card:hover {
+  transform: scale(1.05); /* Scale the card on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.state-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.click-here-button {
+  background-color: #3498db; /* Set button background color */
+  color: #fff; /* Set button text color */
+  padding: 8px 15px; /* Set padding for the button */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Add cursor pointer on hover */
+  font-size: 14px; /* Set font size for button text */
+}
